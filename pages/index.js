@@ -14,20 +14,15 @@ export default function Home() {
         <div> Jarukit ngamdee</div>
         <div className='textgrey3' style={{paddingTop: "10px "}}>Mahasarakham university</div>
       </div>
-      
-      
-
 
       <div className='ctnCenter2'>
         <Grid
           container rowSpacing={1}
           columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
-
           <Grid item xs={12} md={6}>
-
             <div className='ctnCenter2'>
-              <a href='/visaHome'>
 
+              <a href='/visaHome'>
                 <Card sx={{ width: "310px" }}>
                   <CardActionArea>
                     <CardMedia
@@ -46,12 +41,10 @@ export default function Home() {
                     </CardContent>
                   </CardActionArea>
                 </Card>
-
               </a>
+
             </div>
           </Grid>
-
-
 
           <Grid item xs={12} md={6}>
             <div className='ctnCenter2'>
@@ -78,9 +71,7 @@ export default function Home() {
 
               </a>
             </div>
-
           </Grid>
-
         </Grid>
       </div>
 

@@ -11,12 +11,12 @@ import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
 
 export default function Home() {
 
+  //เปลี่ยนหน้า
   const onClickCard = (path) => {
 		window.location.href = `/${path}`;
 	};
 
   return (
-
     <div >
       <Head>
         <title>ViSa</title>
@@ -156,8 +156,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-
-
         <div className='boxspace'>
           <div className='boxstyle2'>
             <div className='icon'>
@@ -175,22 +173,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-
-        <div style={{ height: "10px" }}></div>
-
-
       </div>
-
-
-
-
-
-
-
-
-
-
-
     </div>
   )
 }

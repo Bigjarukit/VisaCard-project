@@ -164,6 +164,9 @@ export default function Home() {
               </div>
               <div>
                 <h6>คำสั่ง Robot Walk</h6>
+                <div> L - หันซ้าย </div>
+                <div>R - หันขวา</div>
+                <div>W – เดินไปด้านหน้าตามทิศทางที่หัน</div>
               </div>
               <input value={inputText} type="text" id="lname" name="lastname" placeholder="" onChange={(e) => setInputText(e.target.value)} />
               <div style={{ padding: "10px", }}>
