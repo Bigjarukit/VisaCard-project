@@ -325,3 +325,80 @@ boxkeepright {
 .row {
   display: flex;
 }
+
+.ctnCenter{
+  padding: 20px;
+  display: flex;
+  justify-self: center;
+}
+.ctnCenter2{
+  padding-left: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-self: center;
+}
+
+.box1{
+  padding: 20px;
+}
+.text1{
+  padding: 10px;
+}
+.text2{
+  padding: 10px;
+}
+
+.button {
+  position: relative;
+  background-color: #4182fc;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  color: #FFFFFF;
+  padding: 10px;
+  width: 100px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.button:after {
+  content: "";
+  background: #f1f1f1;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
+.setText{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 25px;
+}
+

@@ -237,7 +237,7 @@ export default function VisaDetail() {
         </div>
 
 
-        <div className='boxspace'>
+        <div className='boxspace' >
           <div className='boxstyle2'>
             <div className='icon'>
               <ShoppingBasketIcon />
@@ -254,8 +254,6 @@ export default function VisaDetail() {
             </div>
           </div>
         </div>
-
-
         <div style={{ height: "10px" }}></div>
 
       </div>
