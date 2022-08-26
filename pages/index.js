@@ -44,8 +44,6 @@ export default function Home() {
           <div className='textgrey3'>June 10,2018</div>
         </div>
 
-       <div className='textgrey5'>Click on VisaCard </div>
-
         <div >
           <Carousel
             showThumbs={false}
