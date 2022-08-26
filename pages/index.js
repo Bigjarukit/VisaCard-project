@@ -10,6 +10,11 @@ import PaidIcon from '@mui/icons-material/Paid';
 import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
 
 export default function Home() {
+
+  const onClickCard = (path) => {
+		window.location.href = `/${path}`;
+	};
+
   return (
 
     <div >
@@ -46,15 +51,15 @@ export default function Home() {
             showThumbs={false}
             showArrows={false}
             showStatus={false}>
-            <a href="/visaDetail">
+            <div onClick={() => onClickCard("visaDetail")} >
               <img src="visa-1.png" />
-            </a>
-            <a href="/visaDetail">
+            </div>
+            <div onClick={() => onClickCard("visaDetail")} >
               <img src="visa-2.png" />
-            </a>
-            <a href="/visaDetail">
+            </div>
+            <div onClick={() => onClickCard("visaDetail")} >
               <img src="visa-3.png" />
-            </a>
+            </div>
           </Carousel>
         </div>
 

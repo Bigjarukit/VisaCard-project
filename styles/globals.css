@@ -322,3 +322,6 @@ boxkeepright {
   color: rgb(173, 173, 173);
  
 }
+.row {
+  display: flex;
+}
