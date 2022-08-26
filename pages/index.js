@@ -49,10 +49,8 @@ export default function Home() {
             <a href="/visaDetail">
               <img src="visa-1.png" />
             </a>
-
             <a href="/visaDetail">
               <img src="visa-2.png" />
-
             </a>
             <a href="/visaDetail">
               <img src="visa-3.png" />

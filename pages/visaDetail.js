@@ -69,7 +69,7 @@ export default function VisaDetail() {
         <div className='BoxCPN'>
           <div>
             <div style={{ padding: "0px 0px 0px 35px" }}>
-              <div style={{ fontSize: "20px" }} className='textgrey2'> 42012 &emsp; 3049 &emsp; 2800 &emsp; 9815</div>
+              <div style={{ fontSize: "18px" }} className='textgrey2'>42012 &emsp;3049 &emsp;2800 &emsp;9815</div>
             </div>
           </div>
           <div style={{ padding: "2px 30px 0px 30px" }}>
